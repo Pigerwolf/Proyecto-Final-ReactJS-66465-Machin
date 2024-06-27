@@ -1,5 +1,4 @@
 import React from 'react';
-import './MainContent.css';
 import renderProductCard from '../utils/newCards';
 
 const Main = () => {
@@ -18,11 +17,9 @@ const Main = () => {
           </div>
           <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only">Anterior</span>
           </a>
           <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Siguiente</span>
           </a>
         </div>
       </div>

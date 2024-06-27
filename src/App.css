@@ -40,10 +40,14 @@
 .read-the-docs {
   color: #888;
 }
-.ul {
+
+.Nav-Bar-ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  padding-left: 5px;
+  margin-left: auto;
+  gap: 9px;
 }

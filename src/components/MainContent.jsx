@@ -13,9 +13,6 @@ const Main = () => {
               <img className="d-block w-100" src="https://images.ctfassets.net/1nw0m35kh5t7/6kI0OuYTrVywhKOyUd1kDi/ed6186f9da8feb4464ec6f9e238e6073/Types-of-e-commerce-16-9" alt="First slide" />
             </div>
             <div className="carousel-item img-fluid">
-              <img className="d-block w-100" src="https://assets.entrepreneur.com/content/3x2/2000/20191127134656-e-commerce-3406613.jpeg?width=600&crop=16:9" alt="Second slide" />
-            </div>
-            <div className="carousel-item img-fluid">
               <img className="d-block w-100" src="https://media.newyorker.com/photos/5b465113da42df0b560981d3/16:9/w_1280,c_limit/180723_r32444_rd.jpg" alt="Third slide" />
             </div>
           </div>

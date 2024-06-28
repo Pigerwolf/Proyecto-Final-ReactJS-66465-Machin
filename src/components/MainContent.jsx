@@ -8,19 +8,10 @@ const Main = () => {
       <div className="container">
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
-            <div className="carousel-item img-fluid active">
-              <img className="d-block w-100" src="https://images.ctfassets.net/1nw0m35kh5t7/6kI0OuYTrVywhKOyUd1kDi/ed6186f9da8feb4464ec6f9e238e6073/Types-of-e-commerce-16-9" alt="First slide" />
-            </div>
             <div className="carousel-item img-fluid">
               <img className="d-block w-100" src="https://media.newyorker.com/photos/5b465113da42df0b560981d3/16:9/w_1280,c_limit/180723_r32444_rd.jpg" alt="Third slide" />
             </div>
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          </a>
         </div>
       </div>
 
@@ -76,7 +67,7 @@ const Main = () => {
       <div className="container cardItem" id="recommend">
         <div id="heading">
           <h2>Lo Recomendado:</h2>
-          <button type="button" className="btn btn-outline-primary" id="float">Ver todo</button>
+          <button type="button" className="btn btn-outline-primary" id="float" >Ver todo</button>
         </div>
         <div className="row">
           {renderProductCard("Otro gran producto", "€179.00")}

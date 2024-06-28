@@ -5,7 +5,9 @@ const Logo = () => {
   return (
     
     <div className="container mt-4" id="top-logo">
+
 <img src="https://lh5.googleusercontent.com/-iGnbA-5Oijk/TYf3SEXttDI/AAAAAAAACEU/LL_D-6jwWo4/s1600/Escape+Key.jpg" alt='Logo de la Compañía' className='Logo-Principal'></img>
+
       <div className="row">
         <p className='p-dl-logo'>
           Easy

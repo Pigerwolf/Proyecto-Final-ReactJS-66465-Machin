@@ -7,11 +7,15 @@ import MainContent from './components/MainContent';
 import Header from './components/Header';
 import Footer from "./components/Footer"
 import Catalogo from './components/Catalogo';
+import Products from './components/Products';
 
 function App() {
 
   return (
-    <BrowserRouter>
+  
+  <div>
+    <Products/>
+        <BrowserRouter>
       <Header />
       <NavBar />
       <Routes>
@@ -21,7 +25,9 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-  )
+    </div>
+
+ )
 }
 
 export default App

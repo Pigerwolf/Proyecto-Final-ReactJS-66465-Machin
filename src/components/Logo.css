@@ -21,3 +21,23 @@
     font-size: 12px;
     line-height: 20px;
   }
+
+  .Logo-Principal {
+
+    display: flex;
+    justify-content: left;
+    max-width: 90px;
+    max-height: 90px;
+    flex-direction: column;
+    margin-left: 25px;
+
+  }
+
+  .p-dl-logo {
+
+    display: block;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+
+  }

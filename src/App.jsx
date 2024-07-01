@@ -8,6 +8,8 @@ import Header from './components/Header';
 import Footer from "./components/Footer"
 import Catalogo from './components/Catalogo';
 import Products from './components/Products';
+import ProductPage from './components/ProductPage';
+
 
 function App() {
 
@@ -19,9 +21,10 @@ function App() {
       <Header />
       <NavBar />
       <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/" element={<MainContent />}/>
+        <Route path="/contacto" element={<Contacto />}/>
         <Route path="/Catalogo" element={<Catalogo/>}/>
+        <Route path="/ProductPage" element={<ProductPage />}/>
       </Routes>
       <Footer />
     </BrowserRouter>

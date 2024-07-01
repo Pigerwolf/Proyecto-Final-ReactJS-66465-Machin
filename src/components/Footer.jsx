@@ -12,10 +12,10 @@ const Footer = () => {
             <div class="col-md-3">
               <h2>Social</h2>
               <ul className='FooterList'>
-                <li><Link to="#"><i className="fab fa-facebook"></i>ESC Facebook</Link></li>
-                <li><Link to="#"><i className="fab fa-youtube"></i> ESC YouTube</Link></li>
-                <li><Link to="#"><i className="fab fa-twitter"></i>ESC X</Link></li>
-                <li><Link to="#"><i className="fab fa-instagram"></i>ESC_Instagram</Link></li>
+                <li className='FooterListHov'><Link to="#"><i className="fab fa-facebook"></i>ESC Facebook</Link></li>
+                <li className='FooterListHov'><Link to="#"><i className="fab fa-youtube"></i> ESC YouTube</Link></li>
+                <li className='FooterListHov'><Link to="#"><i className="fab fa-twitter"></i>ESC X</Link></li>
+                <li className='FooterListHov'><Link to="#"><i className="fab fa-instagram"></i>ESC_Instagram</Link></li>
               </ul>
             </div>
           </div>

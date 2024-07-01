@@ -14,23 +14,23 @@ import ProductPage from './components/ProductPage';
 function App() {
 
   return (
-  
-  <div>
-    <Products/>
-        <BrowserRouter>
-      <Header />
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<MainContent />}/>
-        <Route path="/contacto" element={<Contacto />}/>
-        <Route path="/Catalogo" element={<Catalogo/>}/>
-        <Route path="/ProductPage" element={<ProductPage />}/>
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+
+    <div>
+      <Products />
+      <BrowserRouter>
+        <Header />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/Catalogo" element={<Catalogo />} />
+          <Route path="/ProductPage" element={<ProductPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
 
- )
+  )
 }
 
 export default App

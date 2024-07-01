@@ -4,7 +4,7 @@ const ProductPage = () => {
 
   return (
 
-    <div>
+    <div className="products-body">
       <div className="container mt-5 mb-5" id="productPage">
         <div className="row">
           <div className="col-md-5">
@@ -41,9 +41,9 @@ const ProductPage = () => {
               </div>
             </div>
             <div id="purchase-btn">
-              <button type="button" className="btn btn-sm btn-primary"><a className="text-white" href=""> Comprar </a></button>
+              <button type="button" className="btn btn-sm btn-primary btn-cart"><a className="text-white" href=""> Comprar </a></button>
               &nbsp;
-              <button type="button" className="btn btn-sm btn-light"><a className="text-black" href=""> <i className="fas fa-shopping-cart pr-2"></i>  Agregar al Carro </a> </button>
+              <button type="button" className="btn btn-sm btn-light btn-cart"><a className="btn-cart" href=""> <i className="fas fa-shopping-cart pr-2"></i>  Agregar al Carro </a> </button>
             </div>
           </div>
           <div className="container">
@@ -98,6 +98,7 @@ const ProductPage = () => {
               </div>
             </div>
             <h4 className="text-center text-muted">Otros Usuarios también vieron:</h4>
+            <div className="products-father">
             <div className="row" id="relatedProducts">
               <div className="col-md-3">
                 <div className="overlay">
@@ -127,6 +128,7 @@ const ProductPage = () => {
                 </div>
                 <h5 className="text-center text-dark mt-3">Chaqueta Negra</h5>
                 <p className="cost text-center text-dark mt-2">$99.99</p>
+                </div>
               </div>
             </div>
           </div>

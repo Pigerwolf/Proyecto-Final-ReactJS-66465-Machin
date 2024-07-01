@@ -5,7 +5,7 @@ const Catalogo = () => {
   return (
 
 <div className="catalogo-father-box">
-        <div>ESTO SE VE?</div>
+        <div>Starting working on this</div>
     </div>
   )
 };

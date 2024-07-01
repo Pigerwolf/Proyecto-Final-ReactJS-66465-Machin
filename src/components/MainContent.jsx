@@ -1,5 +1,6 @@
 import React from 'react';
 import renderProductCard from '../utils/newCards';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
 
@@ -67,7 +68,11 @@ const Main = () => {
       <div className="container cardItem" id="recommend">
         <div id="heading">
           <h2>Lo Recomendado:</h2>
+          <div>
+          <Link to="/productpage">
           <button type="button" className="btn btn-outline-primary" id="float" >Ver todo</button>
+          </Link>
+        </div>
         </div>
         <div className="row">
           {renderProductCard("Otro gran producto", "€179.00")}

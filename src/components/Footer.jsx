@@ -6,7 +6,7 @@ const Footer = () => {
   return (
 
     <div>
-      <footer>
+      <footer className='footer-father'>
         <div class="container">
           <div class="row">
             <div class="col-md-3">

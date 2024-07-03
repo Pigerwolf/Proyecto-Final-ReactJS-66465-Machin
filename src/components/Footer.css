@@ -1,3 +1,9 @@
+.footer-father {
+
+    max-width: 1200px;
+
+}
+
 .FooterList {
 
     list-style: none;
@@ -5,9 +11,6 @@
     justify-content: flex-start;
     flex-direction:row;
     justify-content: space-around;
-    margin: 15px;
-    padding: 15px;
-    
 }
 
 .FooterList a {

@@ -19,6 +19,7 @@ function App() {
       <Products />
       <BrowserRouter>
         <Header />
+        <Products/>
         <NavBar />
         <Routes>
           <Route path="/" element={<MainContent />} />

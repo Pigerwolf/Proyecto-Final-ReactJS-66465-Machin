@@ -1,11 +1,14 @@
 import React from "react";
+import "./Catalogo.css"
 
 const Catalogo = () => {
 
   return (
 
-<div className="catalogo-father-box">
-        <div>Starting working on this</div>
+<div className="catalogo-father">
+<div className="catalogo-innerBox">
+        <div>working on this</div>
+        </div>
     </div>
   )
 };

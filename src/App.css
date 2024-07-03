@@ -1,8 +1,15 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
+  background-color: #0000005d;
+}
+
+.container img {
+
+width: 1120px;
+
 }
 
 .logo {
@@ -417,27 +424,6 @@ background-color: #c4c2c2;
   box-shadow: 3px 4px 12px 2px rgb(236, 236, 236);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Responsive Website */

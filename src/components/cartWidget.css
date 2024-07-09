@@ -1,0 +1,10 @@
+
+.cartWidget {
+
+  top: 0;
+  right: 0;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  
+}

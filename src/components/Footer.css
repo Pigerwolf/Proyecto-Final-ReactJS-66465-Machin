@@ -1,0 +1,28 @@
+.footer-father {
+
+    max-width: 1200px;
+
+}
+
+.FooterList {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.FooterList a {
+
+    color:rgb(60, 60, 167)
+
+}
+
+.FooterListHov:hover {
+
+    transform: scale(1.4);
+    transition: 0.3s;
+    box-shadow: 2cm;
+
+}

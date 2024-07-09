@@ -1,0 +1,15 @@
+* {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.6rem;
+    text-align: center;
+  }
+
+.top-header {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: right;
+
+}

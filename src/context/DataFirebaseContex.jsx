@@ -1,4 +1,4 @@
-import { createContext, useRef, useState, useEffect } from "react";
+import { createContext, useRef, useState} from "react";
 import useGetFirebase from "../hooks/useGetFirebase";
 
 const DataFirebaseContext = createContext()

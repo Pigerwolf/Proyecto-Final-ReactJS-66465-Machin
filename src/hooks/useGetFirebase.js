@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// asegurarnos de importar la db que nos va a permitir el acceso a nuestra colección de firebase
 import { db } from "../firebaseConfig";
 import { getDocs, collection } from "firebase/firestore";
 
@@ -10,7 +11,7 @@ const useGetFirebase = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const querySnapshot = await getDocs(collection(db, "Proyecto Final ReactJS"))                
+                const querySnapshot = await getDocs(collection(db, "Productos"))                
                 const documents = querySnapshot?.docs?.map( document => ({id: document.id, ...document.data()}))
                 setData(documents)
 

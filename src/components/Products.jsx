@@ -1,27 +1,9 @@
-import { useState, useEffect } from "react";
-import { db } from "../firebaseConfig";
-import { getDocs, collection } from "firebase/firestore";
+import { useContext } from "react";
+import { DataFirebaseContext } from "../context/DataFirebaseContex";
+
+const Products = () => {
 
 
-const useGetFirebase = () => {
 
-    const [ data, setData ] = useState(null)
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const querySnapshot = await getDocs(collection(db, "Proyecto Final ReactJS"))                
-                const documents = querySnapshot?.docs?.map( document => ({id: document.id, ...document.data()}))
-                setData(documents)
-
-            } catch (error) {
-                console.log(error)
-            }
-        }
-        fetchData()
-    }, [])
-
-    return data
 }
-
-export default useGetFirebase;
+export default Products;

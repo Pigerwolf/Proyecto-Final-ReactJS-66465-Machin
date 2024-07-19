@@ -1,4 +1,3 @@
-import React from "react";
 import FormContacto from "./FormContacto";
 
 const Contacto = () => {

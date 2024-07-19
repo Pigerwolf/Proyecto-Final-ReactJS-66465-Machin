@@ -1,4 +1,3 @@
-import React from 'react';
 import renderProductCard from '../utils/newCards';
 import { Link } from 'react-router-dom';
 

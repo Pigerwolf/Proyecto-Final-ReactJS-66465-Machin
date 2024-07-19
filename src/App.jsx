@@ -8,7 +8,6 @@ import Footer from "./components/Footer"
 import Catalogo from "./components/Catalogo";
 import ProductPage from './components/productpage';
 
-
 function App() {
 
   return (

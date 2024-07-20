@@ -31,7 +31,7 @@ const Catalogo = () => {
     <div className='catalogo-father'>
       <h1>Catalogo</h1>
 
-{/* Search Bar */}
+{/* Search Bar */} <SearchBar/>
 
     <div className='catalogo-ul'>
       <ul>

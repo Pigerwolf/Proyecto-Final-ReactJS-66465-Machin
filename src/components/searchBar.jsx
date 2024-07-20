@@ -4,9 +4,9 @@ const SearchBar = () => {
 
     return (
 
-<div className="searchBar">
-<form className="form-contact">
-<input type="text" id="search-bar" placeholder="Qué buscas?"/>
+<div className="search-father">
+<form className="search">
+<input type="text" placeholder="Qué buscas?"/>
 </form>
 </div>
 

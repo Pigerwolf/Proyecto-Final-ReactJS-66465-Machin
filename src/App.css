@@ -237,6 +237,12 @@ footer .col-md-3 h5{
   cursor: pointer;
 }
 
+.box p {
+
+color: rgba(255, 255, 255, 0.842);
+
+}
+
 .numberbox1{
   text-align: center;
   font-weight: 600;

@@ -10,10 +10,7 @@ const Productos = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                //el segundo argumento de la función collection es el nombre de nuestra colección
                 const querySnapshot = await getDocs(collection(db, "Productos"))
-                
-                // para obtener los documentos (que son los datos que contiene la colección) debo mapearlos de la siguiente manera
                 const obtenerDocumentos = querySnapshot.docs.map(element => ({ id: element.id, ...element.data()}))
                 setData(obtenerDocumentos)
                 console.log(obtenerDocumentos)

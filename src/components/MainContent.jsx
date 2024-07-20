@@ -30,7 +30,7 @@ const Main = () => {
             <div className="box">
               <i className="fas fa-truck fa-2x mb-3 mt-4 text-primary"></i>
               <h5>Fast Delivery</h5>
-              <p>Velovidad Fast 3-4 días para que llegue tu producto.</p>
+              <p>Velocidad Fast 3-4 días para que llegue tu producto.</p>
               <p className="card-cost">€15.00</p>
             </div>
           </div>

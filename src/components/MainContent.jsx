@@ -1,6 +1,7 @@
 import renderProductCard from '../utils/newCards';
 import { Link } from 'react-router-dom';
 
+
 const Main = () => {
 
   return (
@@ -21,7 +22,7 @@ const Main = () => {
             <div className="box">
               <i className="fas fa-truck fa-2x mb-3 mt-4 text-primary"></i>
               <h5>Delivery</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae voluptate, sapiente praesentium, eum magni nemo nisi voluptatibus quos repellendus eveniet.</p>
+              <p>Velocidad Standar 7-8 días para que llegue tu producto.</p>
               <p className="card-cost">€10.00</p>
             </div>
           </div>
@@ -29,16 +30,16 @@ const Main = () => {
             <div className="box">
               <i className="fas fa-truck fa-2x mb-3 mt-4 text-primary"></i>
               <h5>Fast Delivery</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae voluptate, sapiente praesentium, eum magni nemo nisi voluptatibus quos repellendus eveniet.</p>
-              <p className="card-cost">€12.00</p>
+              <p>Velovidad Fast 3-4 días para que llegue tu producto.</p>
+              <p className="card-cost">€15.00</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="box">
               <i className="fas fa-truck fa-2x mb-3 mt-4 text-primary"></i>
               <h5>Delivery Express</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae voluptate, sapiente praesentium, eum magni nemo nisi voluptatibus quos repellendus eveniet.</p>
-              <p className="card-cost">€15.00</p>
+              <p>Velocidad Express! 1-2 días para que llegue tu producto.</p>
+              <p className="card-cost">€20.00</p>
             </div>
           </div>
         </div>
@@ -46,7 +47,7 @@ const Main = () => {
 
       <div className="container cardItem" id="products">
         <h2>Lo Popular:</h2>
-        <div className="row">
+        <div className="card-container">
           {renderProductCard("Un producto ESC-Electronics", "€179.00")}
           {renderProductCard("Producto de la ostia!", "€280.00")}
           {renderProductCard("Un producto de producto", "€56.00")}
@@ -56,7 +57,7 @@ const Main = () => {
 
       <div className="container cardItem" id="newarrive">
         <h2>Lo nuevo:</h2>
-        <div className="row">
+        <div className="card-container">
           {renderProductCard("Algun producto", "€179.00")}
           {renderProductCard("Algun otro producto", "€280.00")}
           {renderProductCard("Algun gran producto", "€56.00")}
@@ -68,12 +69,12 @@ const Main = () => {
         <div id="heading">
           <h2>Lo Recomendado:</h2>
           <div>
-          <Link to="/productpage">
+          <Link to="/Catalogo">
           <button type="button" className="btn btn-outline-primary" id="float" >Ver todo</button>
           </Link>
         </div>
         </div>
-        <div className="row">
+        <div className="card-container">
           {renderProductCard("Otro gran producto", "€179.00")}
           {renderProductCard("Algun producto ingenioso", "€280.00")}
           {renderProductCard("Un gran producto llamativo", "€56.00")}

@@ -6,7 +6,7 @@ import MainContent from './components/MainContent';
 import Header from './components/Header';
 import Footer from "./components/Footer"
 import Catalogo from "./components/Catalogo";
-import ProductPage from './components/productpage';
+import Productos from './components/Productos';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/Catalogo" element={<Catalogo />} />
-          <Route path="/ProductPage" element={<ProductPage />} />
+          <Route path="/Productos" element={<Productos />} />
         </Routes>
         <Footer />
       </BrowserRouter>

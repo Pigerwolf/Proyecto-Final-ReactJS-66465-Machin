@@ -10,7 +10,7 @@ const useGetFirebase = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const querySnapshot = await getDocs(collection(db, "Proyecto Final ReactJS"))                
+                const querySnapshot = await getDocs(collection(db, "Productos"))                
                 const documents = querySnapshot?.docs?.map( document => ({id: document.id, ...document.data()}))
                 setData(documents)
 

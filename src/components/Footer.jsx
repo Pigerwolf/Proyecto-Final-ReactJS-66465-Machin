@@ -20,9 +20,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="container">
-          <span class="text-muted float-left"><p id="copyright">&copy; 2024 ESC-Electronics</p></span>
-          <span class="float-right"> <p id="footerInfo"> info@ESC-Electronics.es | +34 663 424 447 | Calle España, Av. España 123 </p> </span>
+        <div className="container">
+          <span className="text-muted float-left"><p id="copyright">&copy; 2024 ESC-Electronics</p></span>
+          <span className="float-right"> <p id="footerInfo"> info@ESC-Electronics.es | +34 663 424 447 | Calle España, Av. España 123 </p> </span>
         </div>
       </footer>
     </div>

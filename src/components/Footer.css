@@ -1,11 +1,16 @@
 .footer-father {
-
+    width: 100%;
     max-width: 1200px;
 
 }
 
-.FooterList {
+.form {
 
+    margin-left: 0;
+
+}
+
+.FooterList {
     list-style: none;
     display: flex;
     justify-content: flex-start;

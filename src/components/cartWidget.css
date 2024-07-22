@@ -1,10 +1,19 @@
-
 .cartWidget {
-
-  top: 0;
-  right: 0;
-  background: lightgray;
   display: flex;
   align-items: center;
-  
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cart-count {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.cartWidget a {
+  text-decoration: none;
+  color: inherit;
 }

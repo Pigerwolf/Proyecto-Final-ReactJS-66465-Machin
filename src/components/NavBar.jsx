@@ -1,9 +1,14 @@
-import '../index.css'
-import { Link } from "react-router-dom"
+import '../index.css';
+import './Navbar.css';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { useCart } from './context/cartContext'; 
 
 const Navbar = () => {
+    // Usa el hook para obtener el carrito
+    const { cart } = useCart();
+
     return (
         <nav>
             <ul className='Nav-Bar-ul'>
@@ -11,7 +16,7 @@ const Navbar = () => {
                     <Link to={`/`}>
                         Inicio
                     </Link>
-                </li>           
+                </li>
                 <li>
                     <Link to={`/Catalogo`}>
                         Catálogo
@@ -21,15 +26,18 @@ const Navbar = () => {
                     <Link to={`/contacto`}>
                         Contacto
                     </Link>
-                </li>   
-                <li>
-                    <Link to={`/cartWidget`}>
-                    <FontAwesomeIcon icon={faShoppingCart}/>
+                </li>
+                <div className="cart-container">
+                    <Link to={'/Checkout'} className="cart-link">
+                        <span className="cart-icon">
+                            <FontAwesomeIcon icon={faShoppingCart} />
+                        </span>
+                        <span className="cart-count">{cart.length}</span>
                     </Link>
-                </li>      
+                </div>
             </ul>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

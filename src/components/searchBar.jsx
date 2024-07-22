@@ -1,17 +1,16 @@
-import "./searchBar.css"
+import './searchBar.css';
 
 const SearchBar = ({ searchTerm, setSearchTerm }) => {
-    return (
-      <div className="search">
-        
-        <input
-          type="text"
-          placeholder="¿Qué buscas?"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}/>
+  return (
+    <div className="search">
+      <input
+        type="text"
+        placeholder="¿Qué buscas?"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+    </div>
+  );
+};
 
-      </div>
-    );
-  };
-
-  export default SearchBar;
+export default SearchBar;

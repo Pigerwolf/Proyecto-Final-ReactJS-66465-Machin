@@ -27,8 +27,13 @@ h1 {
   line-height: 1.1;
 }
 
-#root {
+.btn-finalizar {
 
-  list-style: none;
+  padding: 25px 20px 50px 25px;
 
+}
+
+.checkout-button:hover {
+
+  cursor: pointer;
 }

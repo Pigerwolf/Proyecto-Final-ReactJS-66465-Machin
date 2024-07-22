@@ -27,8 +27,10 @@ const CheckoutPage = ({ message }) => {
           )}
         </div>
         <p className="total">Total: €{totalAmount.toFixed(2)}</p>
-        <button onClick={handleClick} className="checkout-button">Finalizar Compra</button>
-      </div>
+        <div className='btn-finalizar'>
+        <button onClick={handleClick} className="checkout-button btn btn-finalizar">Finalizar Compra</button>
+        </div>
+        </div>
     );
   };
   

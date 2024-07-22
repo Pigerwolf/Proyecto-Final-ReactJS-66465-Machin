@@ -3,7 +3,6 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-
   const [cart, setCart] = useState([]);
 
   // Cargar carrito desde localStorage al iniciar
@@ -17,17 +16,19 @@ export const CartProvider = ({ children }) => {
     localStorage.setItem('cart', JSON.stringify(cart));
   }, [cart]);
 
-  // Guardar carrito en localStorage //
-  useEffect(() => {
-    localStorage.setItem('cart', JSON.stringify(cart));
-  }, [cart]);
-
-  // Función para agregar al carrito //
+  // Función para agregar al carrito
   const addToCart = (product) => {
-    setCart((prevCart) => [...prevCart, product]);
+    setCart((prevCart) => {
+      // Verifica si el producto ya está en el carrito
+      const productExists = prevCart.some(item => item.id === product.id);
+      if (!productExists) {
+        return [...prevCart, product];
+      }
+      return prevCart;
+    });
   };
 
-  // Función para eliminar del carrito //
+  // Función para eliminar del carrito
   const removeFromCart = (productId) => {
     setCart((prevCart) => prevCart.filter(item => item.id !== productId));
   };

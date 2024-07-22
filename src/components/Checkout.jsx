@@ -1,8 +1,10 @@
 import { useCart } from './context/cartContext'
 
-const CheckoutPage = () => {
+const CheckoutPage = ({ message }) => {
     const { cart } = useCart();
-  
+    const handleClick = () => {
+        alert(`Tu Compra se ha realizado con Éxito!`);
+      };
     const totalAmount = cart.reduce((acc, item) => acc + item.Valor, 0);
   
     return (
@@ -25,7 +27,7 @@ const CheckoutPage = () => {
           )}
         </div>
         <p className="total">Total: €{totalAmount.toFixed(2)}</p>
-        <button className="checkout-button">Finalizar Compra</button>
+        <button onClick={handleClick} className="checkout-button">Finalizar Compra</button>
       </div>
     );
   };

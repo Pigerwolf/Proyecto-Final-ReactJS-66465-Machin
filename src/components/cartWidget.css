@@ -6,11 +6,12 @@
 .cart-icon {
   font-size: 24px;
   margin-right: 10px;
+  color: #71d1d4;
 }
 
 .cart-count {
-  font-size: 18px;
-  margin-left: 5px;
+  font-size: 13px;
+  margin-left: 10px;
 }
 
 .cartWidget a {

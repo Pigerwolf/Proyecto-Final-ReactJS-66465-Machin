@@ -373,9 +373,19 @@ max-height: 400px;
 
 }
 
+.card-container {
+
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  margin: 20px;
+  margin-left: -40px;
+
+}
+
 #float {
 
-  
+
   padding: 0;
 
 }

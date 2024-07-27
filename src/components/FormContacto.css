@@ -31,7 +31,7 @@ form {
 }
 
 textarea{
-	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
+	background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
     width: 276px;
     height: 110px;
     border: 1px solid rgba(255,255,255,.6);
